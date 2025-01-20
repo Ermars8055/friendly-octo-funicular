@@ -96,7 +96,7 @@
     transform: scale(1.1);
   }
   
-
+  /* Support Message */
   #supportMessage {
     margin-top: 20px;
     background-color: #32d3a2;
@@ -106,7 +106,7 @@
     animation: slideInMessage 1s ease-out;
   }
   
-
+  /* Animations */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -139,4 +139,13 @@
       transform: translateY(0);
     }
   }
+  img {
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  
   
